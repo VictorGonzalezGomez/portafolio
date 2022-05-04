@@ -2,3 +2,9 @@
     width: 83.4%;
     background-color: rgb(172, 138, 138);
 }
+
+.navButtonsPosition {
+    display: flex;
+    flex-direction: column;
+}
+
