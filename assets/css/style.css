@@ -3,8 +3,7 @@
     background-color: rgb(172, 138, 138);
 }
 
-.navButtonsPosition {
-    display: flex;
-    flex-direction: column;
+a {
+    color:#F7F9F9;
+    text-decoration: none;
 }
-

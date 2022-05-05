@@ -5,78 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/99e71dcb7e.js" crossorigin="anonymous"></script>
     <title>Portafolio</title>
 
   </head>
   <body>
-
-<div class="container-fluid">
-  <div class="row flex-nowrap">
-      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark text-white">
-        <!-- content area of navbar -->
-        <h5>Victor Gonzalez</h5>
-          <div class="d-flex flex-column align-items-center justify-content-center align-items-sm-start mx-4 pt-2 text-white min-vh-100">
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
             
-            <!-- offcanvas -->
-            <div class="navButtonsPosition" >
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightAbout" aria-controls="offcanvasRightAbout">About</button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightSkills" aria-controls="offcanvasRightSkills">Skills</button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProjects" aria-controls="offcanvasRightProjects">Projects</button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightContact" aria-controls="offcanvasRightContact">Contact</button>
+                    <h3 class="fs-5 d-none d-sm-inline">Victor Gonzalez</h3>
+              
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <button href="#" class="nav-link align-middle px-0 text-white" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightSkills" aria-controls="offcanvasRightSkills">
+                          <i class="fa-solid fa-graduation-cap"></i><span class="ms-1 d-none d-sm-inline">Skills</span>
+                        </button>
+                    </li>
+                    <li>
+                      <button href="#" class="nav-link px-0 align-middle text-white" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProjects" aria-controls="offcanvasRightProjects">
+                        <i class="fa-solid fa-code"></i><span class="ms-1 d-none d-sm-inline">Project</span></button>
+                    </li>
+                    <li>
+                      <button href="#" class="nav-link px-0 align-middle text-white" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightContact" aria-controls="offcanvasRightContact">
+                        <i class="fa-solid fa-paper-plane"></i><span class="ms-1 d-none d-sm-inline" >Contact</span></button>
+                  </li>
+                </ul>
+                <hr>
+                <a href="#"><i class="fa-brands fa-github"></i><span class="ms-1 d-none d-sm-inline">Github</span></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i><span class="ms-1 d-none d-sm-inline">Linkedin</span></a>
+                
             </div>
-          <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightAbout" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header" class="container w-100">
-              <h5 id="offcanvasRightLabel">About</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <!-- offcanvas box content -->
-            <div class="offcanvas-body">
-              <p>Try scrolling the rest of the page to see this option in action.</p>
-            </div>
-          </div>
-          
-          <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightSkills" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header" class="container w-100">
-              <h5 id="offcanvasRightLabel">Skills</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <!-- offcanvas box content -->
-            <div class="offcanvas-body">
-              <p>2</p>
-            </div>
-          </div>
-
-          <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightProjects" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header" class="container w-100">
-              <h5 id="offcanvasRightLabel">Projects</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <!-- offcanvas box content -->
-            <div class="offcanvas-body">
-              <p>2</p>
-            </div>
-          </div>
-
-          <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightContact" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header" class="container w-100">
-              <h5 id="offcanvasRightLabel">Contact</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <!-- offcanvas box content -->
-            <div class="offcanvas-body">
-              <p>2</p>
-            </div>
-          </div>
-
         </div>
-      </div>
-      <!-- content area of the main page -->
-      <div class="col py-3">
-          
-      </div>
-  </div>
-</div>
 
+        <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightSkills" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header" class="container w-100">
+            <h5 id="offcanvasRightLabel">Skills</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <p>Try scrolling the rest of the page to see this option in action.</p>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightProjects" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header" class="container w-100">
+            <h5 id="offcanvasRightLabel">Projects</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <p>2</p>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRightContact" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header" class="container w-100">
+            <h5 id="offcanvasRightLabel">Contact me</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+ 
+          <div class="offcanvas-body">
+            <p>2</p>
+          </div>
+        </div>
+
+        <div class="col py-3">
+            Content area...
+        </div>
+    </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     
