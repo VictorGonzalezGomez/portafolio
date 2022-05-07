@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish:wght@500&display=swap');
 .offcanvas {
     width: 83.4%;
-    background-color: rgb(172, 138, 138);
+    background-color: #a1e4e3;
+    font-family: 'Josefin Sans', sans-serif;
 }
-
+main {
+    background-color: #F7F5F2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav {
+    font-family: 'Mulish', sans-serif;
+}
 a {
     color:#F7F9F9;
     text-decoration: none;
